@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комплектующие для ПК - STORM</title>
+    <link rel="stylesheet" href="compl.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка -->
+        <header>
+            <div class="header-content">
+                <img src="logo.png" alt="Логотип магазина" class="logo">
+                <h1>Комплектующие для ПК</h1>
+                <button class="contact-btn" onclick="window.location.href='contacts.html'">Связаться</button>
+            </div>
+        </header>        
+
+        <!-- Основной контент -->
+        <main>
+            <h2>Каталог комплектующих</h2>
+            <p>Здесь вы найдете всё для сборки или модернизации вашего ПК.</p>
+
+            <div class="products">
+                <!-- Карточка товара 1 -->
+                <div class="product-card">
+                    <img src="cpu.webp" alt="Процессор Intel i5-12600K">
+                    <h3>Intel i5-12600K</h3>
+                    <p>Цена: 20 000 ₽</p>
+                    <p class="short-description">10 ядер, тактовая частота до 4.9 ГГц. Совместимость с сокетом LGA 1700.</p>
+                    <button onclick="location.href='cpu-details.html'">Подробнее</button>
+                </div>
+
+                <!-- Карточка товара 2 -->
+                <div class="product-card">
+                    <img src="gpu.png" alt="Видеокарта NVIDIA RTX 3060">
+                    <h3>NVIDIA RTX 3060</h3>
+                    <p>Цена: 30 000 ₽</p>
+                    <p class="short-description">12 ГБ видеопамяти GDDR6, частота ядра до 1777 МГц. Поддержка RTX.</p>
+                    <button onclick="location.href='gpu-details.html'">Подробнее</button>
+                </div>
+
+                <!-- Карточка товара 3 -->
+                <div class="product-card">
+                    <img src="ram.jpg" alt="Оперативная память Kingston 16GB">
+                    <h3>Kingston DDR4 16GB</h3>
+                    <p>Цена: 6 000 ₽</p>
+                    <p class="short-description">Оперативная память DDR4, частота 3200 МГц, низкий CL16.</p>
+                    <button onclick="location.href='ram-details.html'">Подробнее</button>
+                </div>
+
+                <!-- Карточка товара 4 -->
+                <div class="product-card">
+                    <img src="ssd.jpg" alt="SSD Samsung 970 EVO Plus">
+                    <h3>SSD Samsung 970 EVO Plus</h3>
+                    <p>Цена: 10 000 ₽</p>
+                    <p class="short-description">NVMe SSD, объём 1 ТБ, скорость чтения до 3500 МБ/с.</p>
+                    <button onclick="location.href='ssd-details.html'">Подробнее</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Нижний колонтитул -->
+        <footer>
+            <p>© 2024 Магазин электротехники "STORM". Все права защищены.</p>
+            <p>Адрес: г. Чебоксары, ул. Гастелло, д. 55 | Телефон: 8 (8352) 55-55-55</p>
+        </footer>
+    </div>
+</body>
+</html>
